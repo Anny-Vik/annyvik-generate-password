@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <h1 class="text-center mt-lg-5 mb-5">Password Generator</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+        <form>
+          <div class="mb-3">
+            <label class="form-label mb-3">Password Length( <span id="password-length">10</span> )</label>
+            <input type="range" class="form-control mb-5" id="passwordLength" value="10" max="50">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="checkNumbers">
+            <label class="form-check-label">Numbers</label>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="checkLowerCase">
+            <label class="form-check-label" for="exampleCheck1">Lower Case</label>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="checkUpperCase">
+            <label class="form-check-label" for="exampleCheck1">Upper Case</label>
+          </div>
+          <div class="mb-5">
+            <input type="checkbox"
+            checked autocomplete="off"
+            class="form-check-input"
+           id="checkCharacters">
+            <label class="form-label">Special Characters</label>
+          </div>
+          <button type="button" class="btn btn-dark" id="generate">GENERATE</button>
+        </form>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="" id="output">
+
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/generator.js"></script>
+  </body>
+</html>
