@@ -16,7 +16,7 @@ This is a simple web-based password generator that allows users to generate rand
 
 To use the password generator, follow these steps:
 
-1. Open the [Password Generator](https://) page in your web browser.
+1. Open the [Password Generator](https://anny-vik.github.io/annyvik-generate-password/) page in your web browser.
 
 2. Use the password length slider to choose the desired length for your password. The range is from 1 to 20 characters.
 
